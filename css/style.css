@@ -1,15 +1,119 @@
 .tonney{
-	background-attachment: absolute;
-	width: 100%;
-	height: 600px;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
 }
-.centered{
-	background-attachment: absolute;
+.background_img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
-#hour{
-	float: left;
+.top_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.jumbotron{
-	text-align: center;
-	background-image: url(../img/backgrounds/landing.jpg);
+.tonney .top_img p{
+    color: white;
+    font-family: : monospace;
+    letter-spacing: 2px;
+    font-size: 30px
 }
+.h1_strong{
+    font: bold 50px;
+}
+.img{
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+#hour {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+    padding: 29px;
+    margin: 0;
+}
+#party{
+	background-color: #F15A29;
+    color: black;
+    text-decoration: none;
+    padding: 29px;
+    margin: 0;
+}
+#hour:hover {
+    background-color: black;
+}
+.img1{
+    position: relative;
+    display: block;
+    margin: 0;
+    background: cover;
+}
+.img2{
+    background-image: url(../img/foodtop/breakfast.jpg);
+    position: relative;
+    width: 100%;
+}
+.img3{
+    background-image: url(../img/foodtop/lunch.jpg);
+    position: relative;
+    width: 100%;
+}
+.img4{
+    background-image: url(../img/foodtop/dinner.jpg);
+    position: relative; 
+    width: 100%;  
+}
+#border{
+    border: 1px solid skyblue;
+    padding: 15px;
+    position: absolute;
+}
+.alig{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 450px;
+    padding-left: 120px;
+    float: left;
+}
+.aligd{
+    float: right;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.bold1{
+    font-weight: bold;
+}
+.bold2{
+  font-weight: bold;  
+}
+button{
+    padding: 10px;
+    border-color: red;
+    color: red;
+}
+#border1{
+    position: absolute;
+    border: 1px solid skyblue;
+    padding: 15px;
+    width: 530px;
+}
+.alig1{
+    margin-left: 220px;
+    float: right;
+    padding-top: 30px;
+    padding-left: 120px;
+    text-align: right;
+    float: right;
+}
+.aligd1{
+    padding: 30px;
+    padding-right: 120px;
+    float: right;
+}
+
