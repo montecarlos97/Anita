@@ -37,7 +37,7 @@ body{
 
 #humberger{
     top: 50px;
-    left: 100px;
+    left: 400px;
 }
 
 #humberger div{
@@ -45,6 +45,7 @@ body{
     height: 2px;
     background-color: white;
     margin: 6px 0;
+    position: relative;
 }
 
 #img{
@@ -53,9 +54,9 @@ body{
     margin: 0;
 }
 
-.foodbar1 {
-  background-color: #333;
-  list-style-type: none;
+.fst a{   
+    text-decoration: none;
+    padding: 10px;
 }
 
 ol {
@@ -63,17 +64,47 @@ ol {
   color: #fff;
 }
 
-
 .clr{
     clear: both;
 }
+/*
+#alig{
+    border: 1px solid #F2F2F2;
+    margin-top: 70px;
+    float: left;
+}
 
+.al{
+    background-size: cover;
+    padding-bottom: : 0;
+    margin-bottom: 0;
+    position: relative;
+    border-width: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    border: 1px solid #F2F2F2;   
+}
+
+#alig img{
+    width: 100%;
+    padding-left: 15px;
+    height: 100px;
+}
+#alig1{
+    margin-top: 70px;
+    padding-right: 10%;
+    font-size: 13px;
+    line-height: 1.3em;
+}*/
 .tm{
     position: relative;
     width: 50%;
     float: left;
-    padding-top: 70px;
-    margin: 0;
+    margin-top: 0px;
+}
+
+#border img{
+    width: 400px;
 }
 
 #border{
@@ -85,6 +116,8 @@ ol {
     border-width: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 #alig-h{
@@ -93,8 +126,27 @@ ol {
     padding-top: 70px;
     padding-left: 30px;
     padding-bottom: 0;
-    box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+#alig-h h1{
+    font-size: 25px;
+    padding: 0;
+    line-height: 20px;
+}
+
+ #alig-h h4{
+    font-size: 25px;
+    padding: 0;
+    line-height: 25px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.001em;
+ }
+
+ #alig-h p{
+    word-spacing: 0.001em;
+    letter-spacing: 0.001em;
+ }
 
 .button{
     border-radius: 5px;
