@@ -1,119 +1,179 @@
-.tonney{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.header {
     position: relative;
-    top: 0;
-    left: 0;
-    text-align: center;
-}
-.background_img{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.top_img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.tonney .top_img p{
     color: white;
-    font-family: : monospace;
-    letter-spacing: 2px;
-    font-size: 30px
-}
-.h1_strong{
-    font: bold 50px;
-}
-.img{
+    font-family: courier new;
+    text-align: center;
+    background-image: url(../img/backgrounds/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+
+
+.clr{
+    clear: both;
+}
+
+#humberger{
+    top: 50px;
+    left: 100px;
+}
+
+#humberger div{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+#img{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.foodbar1 {
+  background-color: #333;
+  list-style-type: none;
+}
+
+ol {
+  font-size: 40px;
+  color: #fff;
+}
+
+
+.clr{
+    clear: both;
+}
+
+.tm{
+    position: relative;
+    width: 50%;
     float: left;
+    padding-top: 70px;
     margin: 0;
 }
-#hour {
-    display: block;
-    color: black;
-    text-decoration: none;
-    font-family: arial;
-    padding: 29px;
-    margin: 0;
-}
-#party{
-	background-color: #F15A29;
-    color: black;
-    text-decoration: none;
-    padding: 29px;
-    margin: 0;
-}
-#hour:hover {
-    background-color: black;
-}
-.img1{
-    position: relative;
-    display: block;
-    margin: 0;
-    background: cover;
-}
-.img2{
-    background-image: url(../img/foodtop/breakfast.jpg);
-    position: relative;
-    width: 100%;
-}
-.img3{
-    background-image: url(../img/foodtop/lunch.jpg);
-    position: relative;
-    width: 100%;
-}
-.img4{
-    background-image: url(../img/foodtop/dinner.jpg);
-    position: relative; 
-    width: 100%;  
-}
+
 #border{
-    border: 1px solid skyblue;
-    padding: 15px;
+    background-size: cover;
+    padding-bottom: : 0;
+    margin-bottom: 0;
     position: absolute;
+    border: 1px solid #F2F2F2;
+    border-width: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
 }
-.alig{
-    margin-left: 30px;
-    margin-top: 20px;
-    width: 450px;
-    padding-left: 120px;
+
+#alig-h{
+    width: 30%;
     float: left;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
 }
-.aligd{
-    float: right;
-    padding-top: 20px;
-    padding-left: 40px;
+
+.button{
+    border-radius: 5px;
+    padding: 13px 20px;
+    border-color: #F15A29;
+    color: #F15A29;
+    box-sizing: border-box;
 }
-.bold1{
-    font-weight: bold;
+
+.clr{
+    clear: both;
 }
-.bold2{
-  font-weight: bold;  
-}
-button{
-    padding: 10px;
-    border-color: red;
-    color: red;
-}
+
 #border1{
+    background-size: cover;
+    padding-bottom: : 0;
+    margin-bottom: 0;
+    position: relative;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-width: 15px;
+    box-sizing: border-box;
+}
+
+.alig-f{
+    margin-top: 40px;
     position: absolute;
-    border: 1px solid skyblue;
-    padding: 15px;
-    width: 530px;
-}
-.alig1{
-    margin-left: 220px;
+    width: 30%;
     float: right;
-    padding-top: 30px;
-    padding-left: 120px;
+    padding-top: 70px;
     text-align: right;
-    float: right;
+    padding-right: 30px;
+    box-sizing: border-box;
 }
+
+.hm{
+    width: 50%;
+    float: right;
+    padding-top: 70px;
+    margin: 0;
+}
+
 .aligd1{
     padding: 30px;
     padding-right: 120px;
     float: right;
 }
 
+.my_back{
+    background-image: url("../img/backgrounds/foodsBg.jpg");
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: 600px;
+
+}
+
+
+
+
+@media (max-width: 1000px) {
+    #img ul{
+        width: 100%;
+        float: none;
+    }
+    #img div{
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (min-width: 1500px) {
+    #img ul{
+        width: 25%;
+        float: left;
+    }
+    #img div{
+        width: 25%;
+        float: left;
+    }
+}
