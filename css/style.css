@@ -258,13 +258,11 @@ ol {
     border: 1px solid #F2F2F2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-}
-
-.cotainer1{
     width: 87%;
     margin: auto;
     overflow: hidden;
     box-sizing: border-box;
+
 }
 
 .customers h3{
@@ -287,14 +285,6 @@ ol {
     text-align: center;
     box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
 
 
 
