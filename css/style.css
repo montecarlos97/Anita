@@ -5,6 +5,7 @@
 
 body{
     margin: 0;
+    height: auto;
 }
 
 .container{
@@ -29,8 +30,6 @@ body{
     min-height: 400px;
 }
 
-
-
 .clr{
     clear: both;
 }
@@ -48,31 +47,35 @@ body{
     position: relative;
 }
 
-#img{
-    text-align: center;
-    padding: 0;
-    margin: 0;
+#table{
+    width: 100%;
+    
 }
 
-.fst a{   
-    text-decoration: none;
-    padding: 10px;
+#td1{
+
 }
 
-ol {
-  font-size: 40px;
-  color: #fff;
+#td2 img {
+    display:block; 
+    width:100%; 
+    height:auto;
+}
+
+#td3 img {
+    display:block; 
+    width:100%; 
+    height:auto;
+}
+
+#td4 img {
+    display:block; 
+    width:100%; 
+    height:auto;
 }
 
 .clr{
     clear: both;
-}
-
-.tm{
-    position: relative;
-    width: 50%;
-    float: left;
-    margin-top: 0px;
 }
 
 #border img{
@@ -324,6 +327,10 @@ ol {
     background-color: #F15A29; 
     border-width: 0;
     color: white;
+}
+
+.clr{
+    clear: both;
 }
 
 #footer{
