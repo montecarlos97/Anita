@@ -67,35 +67,7 @@ ol {
 .clr{
     clear: both;
 }
-/*
-#alig{
-    border: 1px solid #F2F2F2;
-    margin-top: 70px;
-    float: left;
-}
 
-.al{
-    background-size: cover;
-    padding-bottom: : 0;
-    margin-bottom: 0;
-    position: relative;
-    border-width: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    box-sizing: border-box;
-    border: 1px solid #F2F2F2;   
-}
-
-#alig img{
-    width: 100%;
-    padding-left: 15px;
-    height: 100px;
-}
-#alig1{
-    margin-top: 70px;
-    padding-right: 10%;
-    font-size: 13px;
-    line-height: 1.3em;
-}*/
 .tm{
     position: relative;
     width: 50%;
@@ -121,12 +93,13 @@ ol {
 }
 
 #alig-h{
-    width: 30%;
+    width: 50%;
     float: left;
     padding-top: 70px;
     padding-left: 30px;
     padding-bottom: 0;
     font-family: sans-serif;
+    padding-right: 100px;
 }
 
 #alig-h h1{
@@ -162,9 +135,8 @@ ol {
 
 #border1{
     background-size: cover;
-    padding-bottom: : 0;
     margin-bottom: 0;
-    position: relative;
+    position: absolute;
     border: 1px solid #F2F2F2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-width: 15px;
@@ -173,37 +145,173 @@ ol {
 
 .alig-f{
     margin-top: 40px;
-    position: absolute;
-    width: 30%;
-    float: right;
+    position: relative;
+    width: 50%;
+    float: left;
     padding-top: 70px;
     text-align: right;
     padding-right: 30px;
+    padding-left: 100px;
     box-sizing: border-box;
 }
+
+.alig-f h1{
+    font-size: 25px;
+    padding: 0;
+    line-height: 20px;
+}
+
+ .alig-f h4{
+    font-size: 25px;
+    padding: 0;
+    line-height: 25px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.001em;
+ }
+
+ .alig-f p{
+    word-spacing: 0.001em;
+    letter-spacing: 0.001em;
+ }
 
 .hm{
     width: 50%;
     float: right;
-    padding-top: 70px;
+    padding-top: 100px;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .aligd1{
     padding: 30px;
     padding-right: 120px;
-    float: right;
+    float: left;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
 }
 
 .my_back{
+    margin-top: 150px;
     background-image: url("../img/backgrounds/foodsBg.jpg");
     position: relative;
     top: 0;
     left: 0;
-    text-align: center;
-    height: 600px;
-
+    height: 500px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    background-size: cover;
+    overflow: hidden;
 }
+
+#tom{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    background: #F2F2F2;
+    padding: 15px;
+}
+
+.list li{
+   display: inline;
+    padding: 15px 93px 15px 93px; 
+}
+
+.list li:not(:last-child){
+    border-right: 1px solid #DCDCDC;
+}
+
+.btn{
+    position: relative;
+    display: inline;
+    background: white;
+    top: 0;
+    left: 0;
+    height: 300px;
+}
+
+.img{
+    display: inline;
+    margin: 10px;
+    text-align: center;
+    color: #F15A29;
+    position: relative; 
+}
+
+.img p{
+    padding-top: 10px;
+}
+
+.customers{
+    padding: 70px;
+}
+
+#customers{
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.cotainer1{
+    width: 87%;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.customers h3{
+    color: #F15A29;
+}
+
+.right{
+    float: left;
+    width: 60%;
+    border-right: 1px solid silver;
+    border-spacing: 20px;
+    padding: 20px 70px;
+    box-sizing: border-box;
+    display: inline;
+}
+    
+#abt_menu{
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
