@@ -271,6 +271,7 @@ ol {
 }
 
 .right{
+    clear: both;
     float: left;
     width: 60%;
     border-right: 1px solid silver;
@@ -329,20 +330,41 @@ ol {
     background-color: #F15A29;
     padding: 0;
     margin: 0;
-    
+    text-align: center;
+    color: white;
 }
 
+#footer li{
+    list-style: none;
+}
 
+#footer table{
+    text-align: left;
 
+}
 
+#cls{
+    padding-left: 25px;
+}
 
+#cls img{
+    padding: 5px;
+}
 
+.ft{
+    text-align: center;
+    color: white;
+    background-color: #F15A29;
+    padding-left: 25px;
+    margin: 0;
+}
 
-
-
-
-
-
+.end{
+    margin: 0;
+    padding: 0;
+    bottom: 0px;
+    background-color: #F15A29;
+}
 
 
 
