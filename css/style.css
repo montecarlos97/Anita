@@ -255,6 +255,7 @@ ol {
 }
 
 #customers{
+    padding: 10px;
     border: 1px solid #F2F2F2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -286,10 +287,50 @@ ol {
     box-sizing: border-box;
 }
 
+#email{
+    background-image: url(../img/backgrounds/subscribe.jpg);
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    min-height: 300px;
+    width: 100%;
+}
 
+#client{
+    padding-top: 8.0%;
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+}
 
+#fnt{
+    font-family: trebuchet ms;
+}
 
+.frm{
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 0.3;
+    border-width: 0;
+}
 
+.email_client{
+    width: 180px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F15A29; 
+    border-width: 0;
+    color: white;
+}
+
+#footer{
+    background-color: #F15A29;
+    padding: 0;
+    margin: 0;
+    
+}
 
 
 
