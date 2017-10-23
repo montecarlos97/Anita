@@ -27,7 +27,7 @@ body{
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 0 auto;
-    min-height: 400px;
+    /*min-height: 400px;*/
 }
 
 .clr{
@@ -35,8 +35,8 @@ body{
 }
 
 #humberger{
-    top: 50px;
-    left: 400px;
+    top: 20%;
+    padding-left: 70px;
 }
 
 #humberger div{
@@ -47,31 +47,47 @@ body{
     position: relative;
 }
 
-#table{
+.stbn_imgs li h1{
+    /*height: 50%;*/
+    text-align: center;
     width: 100%;
-    
+    height: 50%;
 }
 
-#td1{
-
+.stbn_imgs li img{
+    width: 100%;
 }
 
-#td2 img {
-    display:block; 
-    width:100%; 
-    height:auto;
+#stbn1:hover{
+   background-color: black; 
 }
 
-#td3 img {
-    display:block; 
-    width:100%; 
-    height:auto;
+#stbn2{
+    color: white;
+    background-color: #F15A29;
 }
 
-#td4 img {
-    display:block; 
-    width:100%; 
-    height:auto;
+
+
+.stbn_imgs{
+    list-style: none;
+}
+
+.stbn_imgs li{
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.stbn_imgs img:hover{
+    content: url(../img/foodtop/dinner2.jpg);
+    color: white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
 }
 
 .clr{
@@ -312,7 +328,7 @@ body{
     font-family: trebuchet ms;
 }
 
-.frm{
+#frm{
     width: 300px;
     border-radius: 5px;
     padding: 5px;
@@ -377,23 +393,23 @@ body{
 
 
 @media (max-width: 1000px) {
-    #img ul{
+   /* #img ul{
         width: 100%;
         float: none;
     }
     #img div{
         width: 100%;
         float: none;
-    }
+    }*/
 }
 
 @media (min-width: 1500px) {
-    #img ul{
+   /* #img ul{
         width: 25%;
         float: left;
     }
     #img div{
         width: 25%;
         float: left;
-    }
+    }*/
 }

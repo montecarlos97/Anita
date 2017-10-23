@@ -14,7 +14,6 @@
 </head>
 <body>
 	
-	<!-- <div class="container"> -->
 	<header>
 		<div class="header">
 			<div id="humberger">
@@ -29,25 +28,35 @@
 	</header>
 	
 
-	<section>
-		<table border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed" id="table">
-			<tr>
-				<td id="td1">
-					<p>Happy Hour</p>
-					<p>Party Time</p>
-				</td>
-				<td id="td2">
-					<img src="img/foodtop/breakfast.jpg">
+	<section style="padding: 0; margin: 0">
+		<div style="padding: 0; margin: 0">
+			<ul class="stbn_imgs">
+				<li>
+					<table style="padding: 0; margin: 0">
+						<tr id="stbn1">
+							<td>Happy Hour</td>
+						</tr>
+						<tr id="stbn2">
+							<td>Party Time</td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					<img id="im1" src="img/foodtop/breakfast.jpg">
+					<p id="text">Breakfast</p>
+				</li>
+				<li>
+					<img id="im2" src="img/foodtop/lunch.jpg">
+					<p id="text">Lunch</p>
+				</li>
+				<li>
+					<img id="im3" src="img/foodtop/dinner.jpg">
+					<p id="text">Dinner</p>
+				</li>
+			</ul>
+		</div>
+	</section>
 
-				</td id="td3">
-				<td>
-					<img src="img/foodtop/lunch.jpg">
-				</td id="td4">
-				<td>
-					<img src="img/foodtop/dinner2.jpg">
-				</td>
-			</tr>
-		</table>
 
 
 	<div class="clr">
@@ -158,9 +167,10 @@
 			<!-- <h2>Get our daily food items delivered to your email</h2> -->
 			<form class="form-group">
 				<label><strong><h5><strong id="fnt">Get our daily food items delivered to your email</strong></h5></strong></label>
-				<input type="text" class="frm" name="email" placeholder="Your email">
-				<button type="submit" class="email_client" name="client_email">Subscribe</button>
+				<input type="text" id="frm" name="email" placeholder="Your email">
+				<button type="submit" id="submit" class="email_client" name="client_email">Subscribe</button>
 			</form>
+			<h2 id="result"></h2>
 		</div>
 	</section>
 
