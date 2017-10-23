@@ -1,6 +1,6 @@
 ### ANITA'S KITCHEN
 
-#Author: Erick Mutua
+#Author: Tonney Magaki
 
 ## Description
 This is a mock-up of a website  that showcases the different kinds of services offered at Anita's <br>
