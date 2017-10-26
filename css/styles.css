@@ -1,162 +1,9 @@
-#logo {
-  font-size: 35px;
-  color: white;
-  font-family: courier new;
-}
-
-#in {
-  margin-top: 50px;
+body{
+  box-sizing: border-box;
   width: 100%;
-  background-color: white;
-}
-#happy {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 25px;
-}
-
-#party {
-  font-family: fantasy;
-  font-size: 25px;
-  text-align: center;
-}
-
-#sweet {
-  width: 100%;
-  text-align: center;
-  color: #F15A29;
-  margin-top: 20px;
-}
-
-#fifth ul li {
-  list-style: none;
-  float: left;
-  padding: 10px;
-  text-align: center;
-}
-
-h2 {
-  font-family: fantasy;
-}
-
-h3 {
-  color: #F15A29;
-}
-
-#selection {
-  font-size: 22px;
-}
-
-#fifth {
-  -webkit-box-shadow: 0px 1px 5px 7px lightgrey;
-  -moz-box-shadow: 0px 1px 5px 7px lightgrey;
-   box-shadow: 0px 1px 5px 7px lightgrey;
-}
-
-h6 {
-  margin-top: 110px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#sixth {
-  color: white;
-}
-
-#blank {
-  margin-bottom: 70px;
-}
-
-#seventh {
-  background-color: #F15A29;
-  color: white;
-}
-
-#lo {
-  font-size: 30px;
-  margin-top: 50px;
-}
-
-#seventh ul li {
-  list-style: none;
-  float: left;
-  padding: 10px;
-}
-
-.middle {
-  background-position: center;
-  position: relative;
-
-}
-
-.text {
-  position: absolute;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  left: 105px;
-  top: 95px;
-}
-
-.text:hover {
-  opacity: 0.5;
-  color: black;
-  background-color: white;
-}
-
-#b {
-  position: relative;
-  height: 210px;
-  background-repeat: no-repeat;
-  font-family: serif;
-  font-style: italic;
-  font-size: 25px;
-}
-
-#b:hover {
-  opacity: 0.5;
-  color: black;
-}
-
-#l {
-  position: relative;
-  height: 210px;
-  background-repeat: no-repeat;
-  font-family: serif;
-  font-style: italic;
-}
-
-#l:hover {
-  opacity: 0.5;
-  color: black;
-}
-
-#d {
-  position: relative;
-  height: 210px;
-  background-repeat: no-repeat;
-  font-family: serif;
-  font-style: italic;
-}
-
-#d:hover {
-  opacity: 0.5;
-  color: black;
-}
-
-#f-img {
-  top: 5px;
-}
-
-#customer-images {
-  text-align: center;
-  float: left;
-  padding-left: 115px;
-}
-
-#mc_embed_signup_scroll {
-  padding-bottom: 100px;
+  height: auto;
+  margin: auto;
+  
 }
 
 .nav {
@@ -180,3 +27,342 @@ h6 {
   cursor: pointer;
   text-align: left;
 }
+
+#top{
+  background-image: url('../assets/backgrounds/landing.jpg'); 
+  background-size: cover; 
+  position: relative;
+  color: white;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+#logo {
+  font-size: 35px;
+  color: white;
+  font-family: courier new;
+}
+
+#in {
+  margin-top: 50px;
+  width: 100%;
+  background-color: white;
+}
+
+.tab{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#happy {
+  text-align: center;
+  font-family: times new roman;
+  font-size: 30px;
+  background-color: lightgrey; 
+  height: 105px; 
+  width: 100%;
+}
+
+#happy p{
+  margin-top: 30px;
+}
+
+#party {
+  font-family: times new roman;
+  font-size: 30px;
+  text-align: center;
+  background-color: #F15A29; 
+  height: 105px; 
+  width: 100%;
+}
+
+#party p{
+  margin-top: 30px; 
+  color: white;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  left: 85px;
+  top: 55px;
+  padding: 40px;
+  border-radius: 50%;
+}
+
+.text:hover {
+  opacity: 0.5;
+  color: black;
+  background-color: white;
+}
+
+#b {
+  position: relative;
+  height: 210px;
+  background-repeat: no-repeat;
+  font-family: serif;
+  font-style: italic;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+#b:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+#l {
+  position: relative;
+  height: 210px;
+  background-repeat: no-repeat;
+  font-family: serif;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
+#l:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+#d {
+  position: relative;
+  height: 210px;
+  background-repeat: no-repeat;
+  font-family: serif;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
+#d:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+.fast-food{
+  position: absolute;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#f-img{
+  margin: 0;
+  padding: 0;
+}
+
+#fast-img{
+  border: 1px solid #F2F2F2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  border-width: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+#menu-tab{
+  padding: 50px 60px 50px 60px;
+  background-image: url('../assets/backgrounds/foodsBg.jpg'); 
+  margin-top: 50px;
+}
+
+#ff{
+  text-align: center; 
+  color: #F15A29; 
+  background-color: white; 
+}
+
+#dri{
+  color: black; 
+  background-color: lightgrey; 
+  text-align: center;
+  border-right: 1px solid grey;
+}
+
+#kenchick{
+  color: black; 
+  background-color: lightgrey; 
+  text-align: center;  
+  border-right: 1px solid grey;
+}
+
+#rice{
+  color: black; 
+  background-color: lightgrey; 
+  text-align: center; 
+}
+
+#sweet {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-position: cover;
+  color: #F15A29;
+  margin: 20px;
+  
+}
+
+.row div{
+  display: inline-block;
+}
+
+#sweet .row div i{
+  
+  vertical-align: -400%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+#sweet .row div img{
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: cover;
+}
+
+#chicken{
+
+}
+
+#beef{
+
+
+}
+
+#pizza{
+
+}
+
+#fifth{
+  margin-top: 50px;
+  padding: 10px 5px;
+}
+
+#fifth ul{
+  list-style: none;
+}
+
+#fifth li{
+  display: inline-block;
+}
+
+#selection {
+  font-size: 22px;
+  clear: both;
+}
+
+#fifth {
+  -webkit-box-shadow: 0px 1px 5px 7px lightgrey;
+  -moz-box-shadow: 0px 1px 5px 7px lightgrey;
+   box-shadow: 0px 1px 5px 7px lightgrey;
+}
+
+h6 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#sixth {
+  margin-top: 50px;
+  padding-top: 80px;
+  color: white;
+  background-image: url('../assets/backgrounds/subscribe.jpg'); 
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+
+#blank {
+  margin-bottom: 70px;
+}
+
+#seventh {
+  background-color: #F15A29;
+  color: white;
+}
+
+#lo {
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+#seventh ul li {
+  list-style: none;
+  float: left;
+  padding: 10px;
+}
+
+.middle {
+  background-position: center;
+  position: relative;
+
+}
+
+#mc_embed_signup_scroll {
+  padding-bottom: 80px;
+}
+
+#mce-EMAIL{
+  width: 200px;
+  opacity: 0.5;
+  color: black;
+}
+
+#mc-embedded-subscribe{
+  border-width: 0;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+#vertical {
+  color: #F15A29;
+  vertical-align: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
